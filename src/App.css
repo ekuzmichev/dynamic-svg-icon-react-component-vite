@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.example {
+  height: 5rem;
+  width: 18rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: beige;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem
+}

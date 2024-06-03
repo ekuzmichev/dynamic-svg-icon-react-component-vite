@@ -1,0 +1,29 @@
+{
+  "name": "dynamic-svg-icon-react-component-vite",
+  "version": "1.0.0",
+  "description": "Dynamic SVG icon React component using Vite",
+  "main": "index.js",
+  "scripts": {
+    "preview": "vite preview",
+    "start": "vite serve",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ekuzmichev",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12",
+    "vite-plugin-purgecss": "^0.2.12",
+    "vite-plugin-simple-html": "^0.1.2",
+    "vite-plugin-svgr": "^4.2.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

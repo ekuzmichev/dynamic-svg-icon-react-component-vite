@@ -8,9 +8,7 @@ export default defineConfig({
   plugins: [
     simpleHtmlPlugin(),
     htmlPurge(),
-    react({
-      include: "**/*.{jsx,tsx}",
-    }),
+    react(),
     svgr({
       svgrOptions: {
         exportType: "named",

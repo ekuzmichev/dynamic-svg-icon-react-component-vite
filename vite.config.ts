@@ -11,6 +11,14 @@ export default defineConfig({
     react({
       include: "**/*.{jsx,tsx}",
     }),
-    svgr(),
+    svgr({
+      svgrOptions: {
+        exportType: "named",
+        ref: true,
+        svgo: false,
+        titleProp: true,
+      },
+      include: "**/*.svg",
+    }),
   ],
 });

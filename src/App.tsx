@@ -1,8 +1,9 @@
 import React, { FC } from "react";
 import "./App.css";
-import AlignCenterIcon from "./assets/align-center.svg?react";
-import AlignJustifyIcon from "./assets/align-justify.svg?react";
-import AlignRightIcon from "./assets/align-left.svg?react";
+import { ReactComponent as AlignCenterIcon } from "./assets/align-center.svg";
+import { ReactComponent as AlignJustifyIcon } from "./assets/align-justify.svg";
+import { ReactComponent as AlignRightIcon } from "./assets/align-left.svg";
+import { Icon } from "./icon";
 import { AddIcon } from "./individual-icon-components/AddIcon";
 import { AddressBookIcon } from "./individual-icon-components/AddressBookIcon";
 import { AlarmClockIcon } from "./individual-icon-components/AlarmClockIcon";
@@ -28,7 +29,11 @@ export const App: FC = () => {
       </div>
       <div className="example">
         <p>Dynamic SVG Icon component:</p>
-        <div className="icons-container"></div>
+        <div className="icons-container">
+          <Icon icon="AlarmClock" />
+          <Icon icon="AddressBook" />
+          <Icon icon="Add" />
+        </div>
       </div>
     </div>
   );

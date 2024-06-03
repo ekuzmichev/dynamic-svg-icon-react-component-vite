@@ -1,8 +1,8 @@
 # dynamic-svg-icon-react-component-vite
 
-<img src="https://github.com/ekuzmichev/dynamic-svg-icon-react-component-vite/assets/1882550/e510f1ef-96da-457d-acb3-190181c8eb81" width="30" height="30"/>
-<img src="https://github.com/ekuzmichev/dynamic-svg-icon-react-component-vite/assets/1882550/d42f8a5a-7849-49cf-b412-cfa71d4f218b" width="30" height="30"/>
 <img src="https://github.com/ekuzmichev/dynamic-svg-icon-react-component-vite/assets/1882550/df2a929b-ede5-4d63-8c03-a8884e1e02bb" width="30" height="30"/>
+<img src="https://github.com/ekuzmichev/dynamic-svg-icon-react-component-vite/assets/1882550/d42f8a5a-7849-49cf-b412-cfa71d4f218b" width="30" height="30"/>
+<img src="https://github.com/ekuzmichev/dynamic-svg-icon-react-component-vite/assets/1882550/e510f1ef-96da-457d-acb3-190181c8eb81" width="30" height="30"/>
 
 ***
 
